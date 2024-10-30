@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "finance"
+version = "0.1.0"
+description = "analysing financial data"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.5.2"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+pdfplumber = "^0.11.4"
+matplotlib = "^3.9.2"
+spacy = "^3.8.2"
+yfinance = "^0.2.44"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+xmltodict = "^0.14.2"
+beautifulsoup4 = "^4.12.3"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
